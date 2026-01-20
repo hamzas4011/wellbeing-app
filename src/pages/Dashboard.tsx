@@ -27,7 +27,7 @@ export default function Dashboard() {
               className={`px-4 py-2 border rounded focus:outline-none focus:ring ${
                 mood === value
                   ? "bg-blue-600 text-white"
-                  : "bg-white"
+                  : "bg-white text-gray-600"
               }`}
             >
               {value}
