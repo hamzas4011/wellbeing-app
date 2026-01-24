@@ -9,6 +9,7 @@ function App() {
       <main className="min-h-screen p-6">
         <Routes>
           <Route path="/" element={<Login />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/history" element={<History />} />
         </Routes>
